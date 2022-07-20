@@ -22,4 +22,11 @@ public class PhoneBook {
     private String FirstName;
     private String LastName;
     private int PhoneNumber;
+
+    public void setPhoneBook(PhoneBook phoneBook) {
+        this.PhoneBookId = phoneBook.PhoneBookId;
+        this.FirstName = phoneBook.FirstName;
+        this.LastName = phoneBook.LastName;
+        this.PhoneNumber = phoneBook.PhoneNumber;
+    }
 }
