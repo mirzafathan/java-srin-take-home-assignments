@@ -32,6 +32,6 @@ public class PhoneBookService {
     // DELETE
     public String deletePhoneBook(int id) {
         repository.deleteById(id);
-        return "phonebook removed for id:" + id;
+        return "phonebook deleted for user id:" + id;
     }
 }
