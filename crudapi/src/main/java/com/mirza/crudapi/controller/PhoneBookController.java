@@ -12,6 +12,15 @@ public class PhoneBookController {
     @Autowired
     private PhoneBookService service;
 
+    @PostMapping("/add")
+    public PhoneBook add(@RequestBody PhoneBook phoneBook) {
+        return service.add(phoneBook);
+    }
+
+    @PostMapping("/addlist")
+    public List<PhoneBook> addProducts(@RequestBody List<PhoneBook> phoneBook) {
+        return service.addlist(phoneBook);
+    }
     @GetMapping("/phonebook")
     public List<PhoneBook> getProducts() {
         return service.getProducts();

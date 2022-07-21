@@ -12,6 +12,15 @@ public class PhoneBookService {
     @Autowired
     private PhoneBookRepository repository;
 
+    // CREATE
+    public PhoneBook add(PhoneBook phoneBook) {
+        return repository.save(phoneBook);
+    }
+
+    public List<PhoneBook> addlist(List<PhoneBook> phoneBook) {
+        return repository.saveAll(phoneBook);
+    }
+
     // READ
     public List<PhoneBook> getProducts() {
         return repository.findAll();
