@@ -63,4 +63,4 @@ Factory Object (or Factory Method) is a design pattern where we provide an abstr
 
 Spring Boot is one of the extensions of Spring framework. According to the framework’s documentation, Spring Boot provides the solution to create Spring-based apps that we can run easily. The Spring Framework itself is a framework that facilitates developers building Java-based apps on various deployment platforms.
 
-### **Hands on projects can be accessed in the "crudapi" directory in this repository.
+### Hands on projects can be accessed in the "crudapi" directory in this repository.
