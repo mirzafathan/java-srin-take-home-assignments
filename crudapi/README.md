@@ -25,7 +25,7 @@ PhoneBook {
 
 Adds a new contact.
 
-**Parameter: `object *(body)*`**
+**Parameter: `object (body)`**
 
 PhoneBook, example value:
 
@@ -41,7 +41,7 @@ PhoneBook, example value:
 
 Adds a list of new contacts.
 
-**Request parameter: `array of objects *(body)*`**
+**Request parameter: `array of objects (body)`**
 
 List of PhoneBook model, example value:
 
@@ -93,7 +93,7 @@ Example:
 
 Get a phonebook of the user with a specific id.
 
-**Request parameter: `Phone Book ID *(path)*`**
+**Request parameter: `Phone Book ID (path)`**
 
 **Response: `object`**
 
@@ -114,7 +114,7 @@ Example:
 
 Updates a phonebook. Requests are taken in the body.
 
-**Request parameter: `object *(body)*`**
+**Request parameter: `object (body)`**
 
 Example:
 
@@ -132,4 +132,4 @@ Example:
 
 Deletes a phonebook with a specific id.
 
-**Request parameter: `Phone Book ID *(path)*`**
+**Request parameter: `Phone Book ID (path)`**
