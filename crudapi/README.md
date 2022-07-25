@@ -1,3 +1,18 @@
+# Config
+Config `application.properties` for database connection. Below is an example.
+
+```xml
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:mysql://localhost:{PORT}/{database_name}
+spring.datasource.username = {username}
+spring.datasource.password = {password}
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+server.port=9191
+```
+
+
 # End-points
 
 | Method | End-Point | Description |
